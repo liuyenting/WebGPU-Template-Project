@@ -36,6 +36,8 @@ option(BUILD_MP2 "Build MP2" ON)
 option(BUILD_MP3 "Build MP3" ON)
 option(BUILD_MP4 "Build MP4" ON)
 option(BUILD_MP5_1 "Build MP5.1" ON)
+option(BUILD_MP5_2 "Build MP5.2" ON)
+option(BUILD_MP6 "Build MP6" ON)
 
 if(BUILD_MP0)
     add_subdirectory(mp0)
@@ -59,4 +61,12 @@ endif()
 
 if(BUILD_MP5_1)
     add_subdirectory(mp5_1)
+endif()
+
+if(BUILD_MP5_2)
+    add_subdirectory(mp5_2)
+endif()
+
+if(BUILD_MP6)
+    add_subdirectory(mp6)
 endif()
