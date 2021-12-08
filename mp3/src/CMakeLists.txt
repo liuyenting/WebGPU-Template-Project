@@ -1,10 +1,10 @@
 add_executable(
-    mp2
+    mp3
     main.cu
 )
 
 target_link_libraries(
-    mp2
+    mp3
     PRIVATE
         libwb
 )
