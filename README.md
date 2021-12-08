@@ -27,4 +27,7 @@ TBA
    ./mp0
    ```
 
-## Tested Environment
+## Tested Environments
+| OS | CMake | CXX | CUDA |
+| :-: | :-: | :-: | :-: |
+| WSL2 5.10.60.1 | 3.16.3 | gcc 9.3.0 | 11.2.152 |

@@ -30,8 +30,13 @@ include_directories(libwb)
 #####
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
-option(BUILD_MP0 "Enable building MP0" ON)
+option(BUILD_MP0 "Build MP0" ON)
+option(BUILD_MP1 "Build MP1" ON)
 
 if(BUILD_MP0)
     add_subdirectory(mp0)
+endif()
+
+if(BUILD_MP1)
+    add_subdirectory(mp1)
 endif()
