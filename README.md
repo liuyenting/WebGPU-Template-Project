@@ -1,8 +1,10 @@
 # WebGPU-Template-Project
 
 ## Quick Start
-#### What you need first?
-TBA
+### What you need first?
+CUDA on WSL2 requires your Windows from Dev Channel (build version 20145 or later), current Windows 11 (version 21H2) has build 22000. As of time of writing, Microsoft just announced that next version is going to be on Beta channel, so stability-wise it should be fine.
+
+todo: packages
 
 ### How to use this?
 1) Clone this repo using your favorite method.
